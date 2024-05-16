@@ -3,16 +3,17 @@
 
 # In[1]:
 
-
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
 # In[2]:
 
-
 mtcars = pd.read_csv("C:\\Users\\CSD 29\\Downloads\\mtcars.csv")
-
+mtcars.head()
+mtcars.shape
+mtcars.info()
+mtcars.columns
+mtcars.describe()
 
 # In[5]:
 
